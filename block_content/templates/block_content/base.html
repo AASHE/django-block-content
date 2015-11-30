@@ -1,0 +1,9 @@
+{% if user and user.is_staff %}
+  <a href="{{ edit_link }}">[EDIT]</a>
+{% endif %}
+
+{% if theme_template %}
+  {% include theme_template %}
+{% else %}
+  {% include 'block_content/default.html' %}
+{% endif %}

@@ -1,0 +1,2 @@
+ - add an edit icon for staff in templates
+ - find a better way to manage the markup filters. Maybe a setting?
