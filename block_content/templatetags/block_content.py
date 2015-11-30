@@ -18,7 +18,7 @@ def block_content(context, key):
     except Block.DoesNotExist:
         block = None
         edit_link = "%s?key=%s" % (
-            urlresolvers.reverse('admin:block_content_block__add'), key)
+            urlresolvers.reverse('admin:block_content_block_add'), key)
 
     user = context.get('user', None)
 
