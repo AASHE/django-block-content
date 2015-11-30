@@ -35,6 +35,14 @@ block_content/pop_up_help.html
       }
     </script>
 
+path/to/your/template.html
+
+    {% extends 'base.html' %}
+    {% load block_content %}
+    <h1>This is a webpage</h1>
+    <p>Do great things</p>
+    {% block_content 'home_page_footer' %}
+
 ## Notes
 
 #### Rationale for having themes stored as templates and having their keys stored in the database:
