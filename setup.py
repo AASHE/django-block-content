@@ -9,7 +9,7 @@ def read(fname):
 
 setup(
     name='django-block-content',
-    version='0.0.1',
+    version='0.0.2',
     description="A way to embed user-editable and themed micro-content.",
     author='Benjamin W Stookey',
     author_email='ben@aashe.org',

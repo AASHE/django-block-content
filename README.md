@@ -1,4 +1,4 @@
-# django-themed-blocks
+# django-block-content
 Yet another flat content tool for django... this time with easily customized themes.
 
 ## Configuration
