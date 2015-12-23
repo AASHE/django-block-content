@@ -17,8 +17,10 @@ setup(
     long_description=read("README.md"),
     packages=[
         'block_content',
-        'block_content.migrations'
+        'block_content.migrations',
+        'block_content.templatetags',
     ],
+    include_package_data=True,
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
@@ -28,5 +30,5 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Framework :: Django',
     ],
-    install_requires=["Django<=1.4"]
+    install_requires=["Django>=1.4", 'django-markup', 'markdown']
 )

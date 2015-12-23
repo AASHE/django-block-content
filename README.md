@@ -7,7 +7,13 @@ Yet another flat content tool for django... this time with easily customized the
       ...
       'block_content',
       ...
+      'django_markup',
+      ...
     ]
+    
+### Requirements
+
+  The default setup requires `django-markup` for markdown support.
 
 ## Why themes?
 
